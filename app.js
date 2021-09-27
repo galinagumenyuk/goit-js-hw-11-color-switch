@@ -9,7 +9,7 @@ const colors = [
 
 const startBtn = document.querySelector('[data-action="start"]');
 const stopBtn = document.querySelector('[data-action="stop"]');
-let timerId;
+let timerId = null;
 
 startBtn.addEventListener('click', onStartClick);
 stopBtn.addEventListener('click', onStopClick);
